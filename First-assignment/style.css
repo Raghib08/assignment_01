@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    
+  }
+
+
+  body{
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.324), rgba(0, 0, 0, 0.446)),url('./glass.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    height: 100vh;
+    
+  }
+
+  nav {
+    height: 15vh; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 25px;
+    padding-right: 25px;
+    
+  }
+
+nav img{
+  height: 40px ;
+  width: 100px;
+
+  
+}
+nav ul{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+nav li{
+  padding: 15px 15px;
+  color: rgba(255, 204, 0, 0.902);
+  font-weight: bolder;
+}
+
+nav button{
+  background-color: transparent;
+  border: none;
+  color: white;
+  background-color: red;
+  width: 79px;
+  height: 33px;
+}
+
+nav button:hover{
+  background-color: white;
+  color: black;
+  border: solid black 1px;
+}
+
+.main-section{
+  padding-top: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+.main-section h1{
+  color: rgba(255, 204, 0, 0.902);
+  font-size: 80px;
+  font-weight: bolder;
+}
+
+.main-section button{
+  margin-top: 20px;
+  padding: 12px 20px;
+  background-color: red;
+  color: white;
+  border: none;
+  
+}
+
+.main-section button:hover{
+  background-color: white;
+  color: black;
+  border: solid black 1px;
+}
+
+.footer img{
+  height: 120px;
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
+}
